@@ -1,0 +1,300 @@
+@font-face {
+    font-family: HelveticaBlack;
+    src: url(../fuentes/Helvetica\ .Black\ Oblique.otf);
+}
+
+body{
+    margin: 0px;
+    background-color: black !important;
+    font-family: HelveticaBlack !important;
+}
+
+/* Estilos de NavBar */
+
+.navbar-negro{
+    background-color: black;
+}
+
+/* header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px ridge gray;
+} */
+
+/* header nav ul {
+    padding-top: 4px;
+    display: flex;
+    list-style: none;
+} */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1px ridge gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer p {
+    font-weight: 100;
+    text-shadow: 2px 3px 7px gray; 
+}
+
+.logo-navbar{
+    width: 57px;
+    margin: -12px 0px;
+}
+
+.texto-navbar{
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 1rem !important;
+    text-shadow: 2px 3px 7px gray;
+}
+
+.nav-seleccionada{
+    text-decoration: underline !important;
+    text-decoration-color: #6A797E !important;
+    text-decoration-thickness: 2px !important;
+}
+
+/* Fin de Estilos de NavBar */
+
+/* Estilos de Texto */
+
+.texto-blanco{
+    color: white !important;
+}
+
+.titulo-seccion{
+    font-size: 1.85rem !important;
+    font-weight: 100;
+    text-shadow: 2px 3px 20px gray;
+    text-align: center;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+/* Fin de Estilos de Texto */
+
+/* Estilos de Temporadas */
+
+.titulo-temporada{
+    font-size: 1.3rem;
+    font-weight: 100;
+    text-shadow: 2px 3px 7px gray;
+    padding-top: 20px;
+}
+
+.texto-temporada{
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.texto-valoracion{
+    font-size: 1.1rem;
+    font-weight: 100;
+    text-shadow: 2px 3px 7px gray;
+}
+
+.estrella-valoracion{
+    color: blueviolet;
+    font-size: 1.9rem;
+    margin-top: -10px;
+}
+
+/* Fin de Estilos de Temporadas */
+
+/* Estilos de Contacto */
+
+.contenedor-grid-contacto{
+    display: grid;
+    grid-template-areas: 
+    "h1 h1 h1"
+    "h2 h2 h2"
+    "texto texto texto"
+    "form form form";
+
+    grid-template-rows: 100px 50px 50px 500px;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.titulo-contacto{
+    font-size: 1.85rem !important;
+    font-weight: 100;
+    text-shadow: 2px 3px 20px gray;
+    text-align: center;
+    color: #107BBB;
+}
+
+.subtitulo-contacto{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.texto-contacto{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -10px;
+}
+
+.form-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo-seccion-contacto{
+    font-size: 1.85rem;
+    font-weight: 100;
+    text-shadow: 2px 3px 20px gray;
+    text-align: center;
+    color: #107BBB;
+    align-items: center;
+}
+
+.form-container{
+    display: flex; 
+    justify-content: center;
+}
+
+.formulario{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 80%;
+    height: 250px; 
+    background-color: white; 
+    border-radius: 15px; 
+    box-shadow: 2px 3px 7px gray;
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+
+.footer-item{
+    padding-top: 4px;
+}
+
+.titulo-formulario{
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px 7px gray;
+}
+
+.contenedor-email{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 23px;
+    border-color: #107BBB;
+}
+
+.boton-contacto{
+    background-color: #107BBB;
+    color: white;
+    border: groove;
+    border-radius: 10px;
+    border-color: #107BBB;
+    width: 250px;
+    height: 40px;
+    font-family: HelveticaBlack;
+    font-weight: normal;
+    text-shadow: 2px 3px 15px black;
+}
+
+.centrado{
+    text-align: center;
+}
+
+/* Fin de Estilos de Contacto */
+
+/* Estilos de Reparto */
+
+.texto-imagen{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.caja-texto-imagen{
+    display: none;
+    position: absolute;
+    top: 480px;
+    left: 60px;
+}
+
+.caja-imagen-personaje{
+    border-radius: 15px;
+}
+
+.imagen-personaje{
+    border-radius: 20px;
+}
+
+.personajes{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+
+.caja-personaje{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #001632;
+    border: 0.2px ridge white;
+    box-shadow: 2px 3px 10px gray;
+}
+
+.boton-personaje{
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 8px;
+    border: groove;
+    height: 35px;
+    color: black;
+    font-weight: lighter;
+    font-family: HelveticaBlack;
+    font-size: 0.8rem;
+}
+
+.link-personaje{
+    text-decoration: none;
+    color: black;
+}
+
+/* Fin de Estilos de Reparto */
+
+.logo-youtube{
+    margin-top: 1px;
+}
+
+.redes-sociales{
+    float: right;
+}
+
+.caja-flex{
+    display: flex;
+}
+
+@media screen and (max-width: 1024px){
+    footer{
+        justify-content: center;
+    }
+}
+
