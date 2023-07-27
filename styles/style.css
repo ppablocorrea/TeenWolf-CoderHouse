@@ -9,6 +9,10 @@ body{
     font-family: HelveticaBlack !important;
 }
 
+html{
+    font-size: 16px;
+}
+
 /* Estilos de NavBar */
 
 .navbar-negro{
@@ -295,13 +299,24 @@ footer p {
 @media screen and (max-width: 991px){
     footer{
         justify-content: center;
-        
     }
     .navbar-hamburguesa{
     width: 100%;
     display: flex;
     justify-content: space-between;
     }
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    html{
+        font-size: 13px;
+    }   
 }
 
 
