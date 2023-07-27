@@ -207,7 +207,7 @@ footer p {
     border: groove;
     border-radius: 10px;
     border-color: #107BBB;
-    width: 250px;
+    width: 65%;
     height: 40px;
     font-family: HelveticaBlack;
     font-weight: normal;
@@ -292,9 +292,17 @@ footer p {
     display: flex;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 991px){
     footer{
         justify-content: center;
+        
+    }
+    .navbar-hamburguesa{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     }
 }
+
+
 
