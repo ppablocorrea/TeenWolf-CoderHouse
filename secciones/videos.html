@@ -54,14 +54,21 @@
     </header>
 
     <main>
-        <section class="texto-blanco">
-            <h1 class="titulo-seccion texto-centrado">Videos Oficiales</h1>
-            <div style="display: flex;">
-                <iframe width="50%" height="370" src="https://www.youtube.com/embed/1y3rflTTjeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
-                <iframe style="padding-left: 10px;" width="50%" height="370" src="https://www.youtube.com/embed/BmHM5eUp9w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <section class="container-fluid pb-5">
+            <div style="margin-top: 20px;" class="row">
+                <h1 class="titulo-seccion texto-blanco">Videos Oficiales</h1>
             </div>
-            <div style="text-align: center; padding-top: 15px; padding-bottom: 10px;">
-                <iframe width="50%" height="370" src="https://www.youtube.com/embed/YCkEiOhnMsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div style="margin-top: 15px;" class="row d-flex justify-content-lg-around video-centrado">
+                <div class="col-12 col-lg-6 pb-3">
+                    <iframe class="tamaño-video" src="https://www.youtube.com/embed/1y3rflTTjeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+                </div>
+                <div class="col-12 col-lg-6 pb-3">
+                    <iframe class="tamaño-video" src="https://www.youtube.com/embed/BmHM5eUp9w4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-12 video-grande-centrado">
+                    <iframe class="tamaño-video video-grande" src="https://www.youtube.com/embed/YCkEiOhnMsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </section>
     </main>

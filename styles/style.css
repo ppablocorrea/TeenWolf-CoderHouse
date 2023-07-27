@@ -310,13 +310,41 @@ footer p {
 @media screen and (max-width: 600px) {
     html{
         font-size: 12px;
-    }   
+    }
+    .tamaño-video{
+        width: 100%;
+        height: 250px;
+    }
+    .video-grande{
+        width: 100%;
+        height: 250px;
+    }
+    .video-centrado{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 991px) {
     html{
         font-size: 13px;
     }   
+}
+
+@media screen and (min-width: 601px) {
+    .tamaño-video{
+        width: 100%;
+        height: 370px;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .video-grande{
+        width: 60%;
+        height: 400px;
+    }
+    .video-grande-centrado{
+        text-align: center;
+    }
 }
 
 
