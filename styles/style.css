@@ -23,25 +23,6 @@ html{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    border-top: 0.1px ridge gray;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-}
-
-footer nav ul {
-    display: flex;
-}
-
-footer p {
-    font-weight: 100;
-    text-shadow: 2px 3px 7px gray; 
-}
-
 .logo-navbar{
     width: 57px;
     margin: -12px 0px;
@@ -74,6 +55,35 @@ footer p {
 
 /* Fin de Estilos de NavBar */
 
+
+/* Estilos del Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.1px ridge gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer p {
+    font-weight: 100;
+    text-shadow: 2px 3px 7px gray; 
+}
+
+.footer-item{
+    padding-top: 4px;
+}
+
+/* Fin de Estilos del Footer */
+
+
 /* Estilos de Texto */
 
 .texto-blanco{
@@ -88,6 +98,10 @@ footer p {
 }
 
 .texto-centrado{
+    text-align: center;
+}
+
+.centrado{
     text-align: center;
 }
 
@@ -149,7 +163,6 @@ footer p {
     justify-content: center;
 }
 
-
 .titulo-seccion-contacto{
     font-size: 1.85rem;
     font-weight: 100;
@@ -178,10 +191,6 @@ footer p {
     margin-top: 25px;
 }
 
-.footer-item{
-    padding-top: 4px;
-}
-
 .titulo-formulario{
     font-size: 1.5rem;
     margin-top: 0px;
@@ -200,10 +209,6 @@ footer p {
 .boton-contacto{
     border: outset;
     border-color: black;
-}
-
-.centrado{
-    text-align: center;
 }
 
 /* Fin de Estilos de Contacto */
