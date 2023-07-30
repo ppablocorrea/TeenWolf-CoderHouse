@@ -10,45 +10,50 @@
 </head>
 <body>
     
+    <!-- Inicio del Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-negro">
             <div class="container-fluid justify-content-between">
             <div class="d-flex navbar-hamburguesa">
                 <a class="navbar-brand" href="../index.html"><img class="logo-navbar" src="../images/logos/logonav.png" alt="logo con letras blancas de la serie Teen Wolf"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-        
-            <ul style="margin-right: -50px;" class="navbar-nav flex-row d-none d-lg-flex">
-                <li class="nav-item me-3 me-lg-1">
-                  <a class="nav-link texto-navbar" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link texto-navbar" href="resumen.html">Resumen</a>
-                </li>
-                <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link texto-navbar" href="videos.html">Videos</a>
-                </li>
-                <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link texto-navbar nav-seleccionada" aria-current="page" href="#">Reparto</a>
-                </li>
-                <li class="nav-item me-3 me-lg-1">
-                    <a class="nav-link texto-navbar" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        
-            <ul style="margin-right: -7px;" class="navbar-nav flex-row d-none d-lg-flex">
-                <li class="nav-item me-3 me-lg-1">
-                    <a target="_blank" class="nav-link red-social" href="https://www.instagram.com/teenwolf/"><img width="20px" height="20px" src="../images/logos/instagram.png" alt="Logo blanco de red social Instagram"></a>
-                </li>
-                <li style="margin-left: 2px;" class="nav-item me-3 me-lg-1">
-                    <a target="_blank" class="nav-link red-social" href="https://twitter.com/MTVteenwolf"><img width="20px" height="20px" src="../images/logos/twitter.png" alt="Logo blanco de red social Twitter"></a>
-                </li>
-                <li class="nav-item me-3 me-lg-1">
-                    <a target="_blank" class="nav-link red-social" href="https://www.youtube.com/@WolfWatch"><img class="logo-youtube" width="25px" height="17px" src="../images/logos/youtube.png" alt="Logo blanco de red social Youtube"></a>
-                </li>
-            </ul>
+            
+            <div class="collapse navbar-collapse dual-navbar d-lg-flex justify-content-lg-end">
+                <ul style="margin-right: -50px;" class="navbar-nav flex-column flex-lg-row d-lg-flex">
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link texto-navbar" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link texto-navbar" href="resumen.html">Resumen</a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link texto-navbar" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link texto-navbar nav-seleccionada" aria-current="page" href="#">Reparto</a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link texto-navbar" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="collapse navbar-collapse dual-navbar d-lg-flex justify-content-lg-end">
+                <ul style="margin-right: -7px;" class="navbar-nav just flex-row d-lg-flex">
+                    <li class="nav-item me-3 me-lg-1">
+                        <a target="_blank" class="nav-link red-social" href="https://www.instagram.com/teenwolf/"><img width="20px" height="20px" src="../images/logos/instagram.png" alt="Logo blanco de red social Instagram"></a>
+                    </li>
+                    <li style="margin-left: 2px;" class="nav-item me-3 me-lg-1">
+                        <a target="_blank" class="nav-link red-social" href="https://twitter.com/MTVteenwolf"><img width="20px" height="20px" src="../images/logos/twitter.png" alt="Logo blanco de red social Twitter"></a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-1">
+                        <a target="_blank" class="nav-link red-social" href="https://www.youtube.com/@WolfWatch"><img class="logo-youtube" width="25px" height="17px" src="../images/logos/youtube.png" alt="Logo blanco de red social Youtube"></a>
+                    </li>
+                </ul>
+            </div>  
             </div>
         </nav>
     </header>
