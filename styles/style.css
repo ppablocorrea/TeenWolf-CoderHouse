@@ -23,18 +23,6 @@ html{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* header{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.1px ridge gray;
-} */
-
-/* header nav ul {
-    padding-top: 4px;
-    display: flex;
-    list-style: none;
-} */
-
 footer{
     display: flex;
     justify-content: space-between;
@@ -135,18 +123,6 @@ footer p {
 /* Fin de Estilos de Temporadas */
 
 /* Estilos de Contacto */
-
-.contenedor-grid-contacto{
-    display: grid;
-    grid-template-areas: 
-    "h1 h1 h1"
-    "h2 h2 h2"
-    "texto texto texto"
-    "form form form";
-
-    grid-template-rows: 100px 50px 50px 500px;
-    grid-template-columns: 20% 60% 20%;
-}
 
 .titulo-contacto{
     font-size: 1.85rem !important;
