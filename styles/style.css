@@ -19,6 +19,10 @@ html{
     background-color: black;
 }
 
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* header{
     display: flex;
     justify-content: space-between;
@@ -55,11 +59,23 @@ footer p {
     margin: -12px 0px;
 }
 
+.red-social:hover{
+    opacity: 0.7;
+}
+
+.logo-navbar:hover{
+    opacity: 0.7;
+}
+
 .texto-navbar{
-    color: white !important;
-    text-decoration: none !important;
-    font-size: 1rem !important;
+    color: white;
+    text-decoration: none ;
+    font-size: 1rem ;
     text-shadow: 2px 3px 7px gray;
+}
+
+.texto-navbar:hover{
+    color: #8A2BE2;
 }
 
 .nav-seleccionada{
@@ -206,16 +222,8 @@ footer p {
 }
 
 .boton-contacto{
-    background-color: #107BBB;
-    color: white;
-    border: groove;
-    border-radius: 10px;
-    border-color: #107BBB;
-    width: 65%;
-    height: 40px;
-    font-family: HelveticaBlack;
-    font-weight: normal;
-    text-shadow: 2px 3px 15px black;
+    border: outset;
+    border-color: black;
 }
 
 .centrado{
@@ -275,6 +283,11 @@ footer p {
     font-weight: lighter;
     font-family: HelveticaBlack;
     font-size: 0.8rem;
+}
+
+.boton-personaje:hover{
+    background-color:#333847;
+    border-color: #000B11;
 }
 
 .link-personaje{
