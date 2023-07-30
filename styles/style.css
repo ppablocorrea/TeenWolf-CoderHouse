@@ -290,6 +290,12 @@ footer p {
     display: flex;
 }
 
+.fullHeight {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
 @media screen and (max-width: 991px){
     footer{
         justify-content: center;
