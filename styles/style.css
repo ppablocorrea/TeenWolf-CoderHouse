@@ -305,6 +305,9 @@ footer p {
     display: flex;
     justify-content: space-between;
     }
+    .navbar-espaciado{
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -327,7 +330,7 @@ footer p {
 @media screen and (min-width: 601px) and (max-width: 991px) {
     html{
         font-size: 13px;
-    }   
+    }
 }
 
 @media screen and (min-width: 601px) {
@@ -344,6 +347,9 @@ footer p {
     }
     .video-grande-centrado{
         text-align: center;
+    }
+    .navbar-espaciado{
+        padding-left: 10px;
     }
 }
 
